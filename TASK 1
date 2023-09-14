@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&family=Titillium+Web:ital,wght@1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>
+            Vinisha-portfolio
+        </title>
+        <style>
+            *{
+                margin:0;
+                padding:0;
+
+            }
+            body{
+                background-color: rgb(0,0,33);
+                color:white;
+                font-family: 'Titillium Web', sans-serif;
+            }
+            nav{
+                display: block;
+                justify-content: space-around;
+                align-items: center;
+                height: 100px;
+                background-color: rgb(29, 29, 103) ;
+                
+
+            }
+            nav ul{
+                display:flex;  
+                justify-content: center;
+
+            }
+            nav ul li{
+                list-style: none;
+                margin:0 23px;
+            }
+            nav ul li a{
+                text-decoration: none;
+                color: white;
+                margin:auto;
+            }
+            nav ul li a:hover{
+                color:rgb(223, 223, 245);
+                font: size 1.01em;
+                 
+            }
+            main hr{
+                border:0;
+                background: rgb(165, 104, 227);
+                height:1.2px;
+                margin:40px 84px;
+
+            }
+        .firstPart{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin:120px 0;
+
+        }
+        .first >div{
+            width:30%;
+           
+
+        }
+        .left{
+            font-size: 1.5rem;
+            color: aqua;
+            font-style:bold;
+           
+        }
+        .leftsection .btn{
+            padding: 12px;
+            font: size 20px;;
+            background: #681cd2;
+            color:white;
+            border:2px solid white;
+            border-radius: 8px;
+}
+        .leftsection{
+            align-items: center;
+            margin: 70px 0;
+            font-size:3rem;
+        }
+        .rightsection img{
+                  width:80%;
+
+        }
+        .purple{
+            color:rgb(235, 134, 12);
+
+        }
+        #element{
+            color: aqua;
+        }
+        .secondPart{
+             max-width:80vw;
+             margin:auto;
+             height:40vh;
+        }
+        .secondPart h1{
+            font:1.9rem;
+          
+        }
+        .text-grey{
+            color:gray;
+  
+        }
+        
+        .secondPart.row1 .column1{
+            height:93px;
+            width:1px;
+            background:white;
+            margin: 100px 50px;
+        }
+        .column1-title{
+            position:relative;
+            top:75px;
+            width:150px;
+            font-size:115px;
+            color:aliceblue;
+
+        }
+        .image-top{
+            width: 350px;
+            height: 200px;
+            align-items: center;
+
+        }
+      .secondPart.row1  .vertical-desc{
+            color:gray;
+            width: 150px;
+            font-size: 50px;
+            top:86px;
+            position: center;
+
+        }
+
+     /*third part styling*/
+    .Third .servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align:center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+  img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
+}
+
+ 
+ 
+       
+
+footer{
+    background-color: rgb(112, 60, 128);
+    height:230px;
+
+
+}
+/*third part styling*/
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items:centre ;
+}
+
+.box .img {
+  width: 70px;
+  height: 110px;
+}
+
+/*footer styling*/
+.footer{
+    display:flex;
+    padding:23px 122px;
+}
+.footer {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: #a94ae4	;
+      padding: 40px 80px;
+    }
+
+    .footer .copy {
+      color: #000;
+    }
+
+  
+
+  
+    .footer-text-center{
+        text-align:bottom;
+        color:whitesmoke;
+        padding: 12px 0;
+
+
+    }
+
+    .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="left"> Vinisha's portfolio</div>
+                <div class=""right></div>
+                    <ul>
+                      <li><a href="/">home</a</li>
+                        <li><a href="/">About</a></li>
+                        <li><a href="/">Services</a></li>
+                        <li><a href="/">Projects</a</li>
+                        <li><a href="/">Contacts</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="firstPart">
+                <div class="leftsection">
+                 <div>  Hi,my name is <span class="purple"></span>Vinisha</div>
+                    <div>I am a budding</div>
+                   
+                    <span id="element"></span>
+                    <div class="buttons">
+                        <button  class="btn">Download Resume</button>
+                        <button class="btn">Visit LinkedIn</button>
+                        <button class="btn">Github</button>
+                      </div>
+                </div>
+                <div class="rightsection">
+                    <img src="bg1.png" alt="">
+                </div> 
+            </section>
+<hr>
+            <section class="secondPart">
+               
+                <h1>Projects</h1>
+
+
+<div class="row1">
+    <div class="column1">
+        <img  class="image-top" src="password generator.png" alt="">
+        <div class="vertical-title">
+            Password Generator<span>(May 2023)</span>
+        </div>
+        <div class="vertical-desc">
+            A password generator project is a front-end development project that allows users to generate strong passwords. The project typically consists of HTML, CSS, and JavaScript code. The HTML code creates the user interface for the project, the CSS code styles the user interface, and the JavaScript code generates the passwords.The objective of a password generator project is to help users create strong passwords.
+        </div>
+    </div></div>
+
+            </section>
+<hr>
+            <section class="ThirdPart">
+                
+              <section id="skills">
+                <div class="container">
+                    <h1 class="text-center">Skills</h1>
+                    <div class="row">
+                        <div class="col-lg-4 mt-4">
+                            <div class="card servicesText">
+                                <div class="card-body">
+                                    <i class="fas servicesIcon fa-clock"></i>
+                                    <h4 class="card-title mt-3">HTML</h4>
+                                    <a target="_blank" href="html.png">
+          <img src="html.png" alt="html" style="width:150px">
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="col-lg-4 mt-4">
+                            <div class="card servicesText">
+                                <div class="card-body">
+                                    <i class='fas servicesIcon fa-layer-group'></i>
+                                    <h4 class="card-title mt-3">CSS</h4>
+                                  <a target="_blank" href="css.png">
+          <img src="css.png" alt="css" style="width:150px">
+        </a>
+        
+                                    
+                                </div>
+                            </div>  
+                        </div>
+        
+                        <div class="col-lg-4 mt-4">
+                            <div class="card servicesText">
+                                <div class="card-body">
+                                    <i class='far servicesIcon fa-check-circle'></i>
+                                    <h4 class="card-title mt-3">JavaScript</h4>
+                                    <a target="_blank" href="js.png">
+          <img src="js.png" alt="javascript" style="width:150px">
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+        
+                    <div class="row">
+                        <div class="col-lg-4 mt-4">
+                            <div class="card servicesText">
+                                <div class="card-body">
+                                    <i class='fas servicesIcon fa-search'></i>
+                                    <h4 class="card-title mt-3">C Language</h4>
+                                   <a target="_blank" href="c.png">
+          <img src="c.png" alt="clang" style="width:150px">
+                                </div>
+                            </div>  
+                        </div>
+        
+                        <div class="col-lg-4 mt-4">
+                            <div class="card servicesText">
+                                <div class="card-body">
+                                    <i class='fas servicesIcon fa-shield-alt'></i>
+                                    <h4 class="card-title mt-3">Python</h4>
+                                    <a target="_blank" href="python.png">
+          <img src="python.png" alt="Python" style="width:150px">
+                                </div>
+                            </div>  
+                        </div>
+        
+                        <div class="col-lg-4 mt-4">
+                            <div class="card servicesText">
+                                <div class="card-body">
+                                    <i class='fas servicesIcon fa-wrench'></i>
+                                    <h4 class="card-title mt-3">UX</h4>
+                                   <a target="_blank" href="ux.png">
+          <img src="ux.png" alt="ux" style="width:150px">
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+
+               
+        </main>
+
+       
+        <footer class="footer">
+            <div class="copy">&copy;Vinisha's Webdeveloper_portfolio</div>
+            
+              
+         
+           
+Social media:             
+            <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+
+<div class="footer-text-center">
+  Copyright &#169  www.Vportfolio.com|All rights reserved
+</div>
+          </footer>
+         
+        
+ 
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web developer', '&amp; a UI/UX Designer.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</body>
+
+    </body>
+</html>
+
+
+
+
+
