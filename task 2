@@ -1,0 +1,313 @@
+restaurant.html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>landing page</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Rubik:ital,wght@1,300&family=Titillium+Web:ital,wght@1,200&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav>
+    <a class="navbar-brand">
+      Jannat</a>
+    <ul class="navbar-menu">
+      <li class="navbar-menu-item">
+        Home</li>
+      <li class="navbar-menu-item">
+        Menu</li>
+      <li class="navbar-menu-item">
+        Locations</li>
+      <li class="navbar-menu-item">
+        Contact us</li>
+    </ul>
+  </nav>
+
+  <!--navbar ends here-->
+
+  <!--background large yellow circle-->
+  <div class="circle"></div>
+  <script src="script.js"></script>
+
+  <!--main content starts here-->
+
+  <main>
+    <div class="banner">
+      <div class="banner-left">
+        <h1 class="title">
+          Happiness with every bite</h1>
+        <p class="sub-title">
+          
+Restaurant which serves homemade food just like home
+We serve homemade food, just like home. We are often small and family-owned, and the food is made with fresh, high-quality ingredients. The atmosphere is warm and inviting, and our staffs will make you feel like you are part of their family.When you eat at our restaurant that serves homemade food, you can taste the love and care that goes into it. The food is simply delicious, and it reminds you of your childhood or of meals that your grandmother used to make.
+          </p><button> Order Now</< /button>
+      </div>
+      <div class="banner-right"><img src="thali1.png" alt="thali" />
+      </div>
+
+      <!--Banner ends here-->
+      <!-- Snacks images Ticker-->
+      <div class="ticker-container">
+        <h2 class="title">
+          Fulfil your cravings with our homemade food!!</h2>
+        <div class="img-ticker">
+          <img src="f1.png" alt="food" />
+          <img src="bb.png" alt="food" />
+          <img src="idli.png" alt="food" />
+          <img src="p1.png" alt="food" />
+          <img src="south1.png" alt="food" />
+          <img src="samosa.png" alt="food" />
+
+        </div>
+      </div>
+      <!--ticker container ends here-->
+
+      <!--get delivery Container-->
+      <div class="delivery-container">
+        <div class="delivery-left">
+          <h1>
+            Get Superfast delivery at Lowest Prices
+          </h1><button>
+            Order Now
+          </button>
+        </div>
+        <div class="delivery-right">
+          <img src="delivery.gif" alt="delivery" />
+        </div>
+      </div>
+      <!-- delivert container ends here-->
+      <!--footer-->
+      <div class="footer">
+        <div class="footer-brand">
+          <h2>Jannat</h2>
+          <p>Copyrights 2023|Jannat</p>
+          <div class="options">
+            <!--payment Options-->
+            <div class="icons">
+              <i class="fa-brands fa-cc-paypal"></i>
+              <i class="fa-brands fa-amazon-pay"></i>
+              <i class="fa-brands fa-google-pay"></i>
+              <i class="fa-brands fa-apple-pay"></i>
+              <i class="fa-brands fa-cc-visa"></i>
+            </div>
+            <!--Social media icons-->
+            <div class="icons">
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook"></i>
+            </div>
+          </div>
+        </div>
+        <!--footer ends here-->
+  </main>
+  <!--main also ends here-->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
+
+
+
+style.css
+
+
+*{
+  margin:0px;
+  padding:0px ;
+  box-sizing:border-box;
+
+}
+body{
+  position: relative;
+  overflow-x:hidden;
+  
+
+font-family: 'Titillium Web', sans-serif;
+}
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  padding:15px 50px;
+}
+.navbar-brand{
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  
+}
+.navbar-menu{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  
+  
+}
+.navbar-menu-item{
+  margin: 0 10px;
+  padding:5px 10px;
+  font-family:'Otamanopee One',sans-serif;
+}
+.navbar-menu-item:hover{
+  cursor:pointer;
+  background:#000;
+  color:rgb(201, 140, 242);
+  border-radius: 10px;
+  
+}
+.circle{
+  width:1000px;
+  height:1000px;
+  border-radius:50%;
+  background-color: rgb(4, 153, 246);
+  position:absolute;
+  right: -350px;
+  top:-350px;
+  z-index:-1;
+  border:100px solid rgb(6, 109, 172);
+  
+}
+.banner{
+  diplpay:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:0 50px;
+  
+   
+}
+.banner-left{
+  width:50%;
+}
+.banner-left .title{
+  font-family:'Otamanopee One',sans-serif;
+  font-size:60px;
+  
+}
+.banner-left .sub-title{
+  font-size:18px;
+  margin:30px 0;
+}
+.banner-left button{
+  padding:10px 15px;
+  background-color:rgb(5, 205, 245);
+  color:#000;
+  border-radius:15px;
+  border:none;
+  outline:none;
+  font-size:18px;
+  cursor:pointer;
+}
+
+.banner-left button:hover{
+  background-color: #000;
+  color:rgb(5, 205, 245);
+}
+.banner-right img{
+  filter:drop-shadow(0 10px 10px #000) ;
+}
+.ticker-container{
+  margin-top:200px;
+  width:100%;
+  background-color:cornflowerblue;
+  padding:50px;
+  color:#fff;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction:column;
+}
+.ticker-container h2{
+  font-size:32px;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+  
+}
+.img-ticker{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:40px ;
+  animation: ticker-kf 18s linear infinite;
+}
+.delivery-container{
+    background-color: rgb(84, 232, 215);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:50px 0px;
+  
+}
+.delivery-left{
+ padding:32px;
+}
+.delivery-left h1{
+  font-size: 32px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.delivery-left button{
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color:cadetblue ;
+  color:#fff;
+  border-radius: 10px;
+  font-size:18px;
+  outline:none;
+  font-weight: 700;
+  cursor:pointer;
+  
+  
+}
+.delivery-left button:hover{
+  background-color: #000;
+  color:rgb(149,225,255);
+}
+.footer{
+  background: #000;
+  padding:50px;
+  padding-bottom: 20px;
+  color:#fff;
+}
+.footer p{
+  text-align: center;;
+}
+.footer-brand{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:30px;
+  text-align:center;
+  
+}
+.options{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons i{
+  font-size: 24px;
+  margin:0 5px ;
+  
+}
+.icons i:hover{
+  cursor: pointer;
+}
+@keyframes ticker-kf{
+  0%{
+    transform: translate(0,0,0);
+  }
+  100%{
+    transform: translate3d(-120rem,0,0);
+  }
+}
